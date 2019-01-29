@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Dashboard from './dashboard/Dashboard';
+import Display from './display/Display';
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +22,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Display/>
+          <Dashboard/>
         </header>
       </div>
     );
